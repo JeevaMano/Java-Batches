@@ -1,0 +1,101 @@
+spring boot application
+
+
+
+Controller--------Entity----DTO----Service-----Controller
+
+
+Client-----Server
+
+What you see is what you get
+
+client----
+
+
+Controller--Path Specification--UI
+
+Entity----POJO classes---Plain old java objects---setter and getters
+
+Employee------Objects----
+
+OOPS---getter(),,Setter()
+
+
+Entity---Databases--Tables--Rows and columns
+
+
+
+
+Spring Boot Features:
+
+1. POJO--Plain old java objects---Boilerplate Code--
+
+Collections---Collection of objects to store a single objects---
+
+Dependencies==Lombok
+
+<dependency>
+	<groupId>org.projectlombok</groupId>
+	<artifactId>lombok</artifactId>
+	<scope>annotationProcessor</scope>
+</dependency>
+
+2. Dependency Injection
+
+3. Rest API
+
+4. Security
+
+5. Unit Testing
+
+1. POJO Classes:
+
+
+@Data Dependencies:
+
+Generates getters for all fields, a useful toString method, and hashCode and equals implementations that check all non-transient fields. Will also generate setters for all non-final fields, as well as a constructor.
+
+2. Dependency Injection
+
+class Home
+{
+	Airtel()
+	{
+	}
+}
+
+class Home
+	Jio()
+	{
+	}
+class InternetConnection
+{
+	Home h=new Home()
+	h.Airtel()
+	Home h;
+	h=new Airtel();//Run Time Polymorphism---Downcasting
+	h=new Jio();
+}
+
+is a process whereby objects define their dependencies 
+
+ a design pattern that removes the dependency of the programs. 
+
+in Spring Boot
+
+@Autowiring--@Autowired
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+Only one constructor of any given bean class may declare this annotation with the required attribute set to true, indicating the constructor to be autowired when used as a Spring bean. Furthermore, if the required attribute is set to true, only a single constructor may be annotated with @Autowired.
+
+REST API---CRUD Operations
+
+
+
+
+
+
+
+
+

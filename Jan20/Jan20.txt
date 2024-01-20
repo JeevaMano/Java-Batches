@@ -1,0 +1,103 @@
+String:  Sequence of characters 
+
+its a immutable--
+
+java.lang.String
+
+its an class
+
+
+java.lang.Object--ClassLoader
+
+StringBuilder and StringBuffer
+
+java.lang.Object--Override Methods:
+
+
+
+toString()
+
+equals()
+
+hashCode()
+
+
+StringBuilder and StringBuffer Common methods:
+
+append()
+insert()
+remove()
+reverse()
+
+
+
+Exception Handling:
+
+
+Exception: Unexepected event that occurs the during the execution of the programme.
+
+
+
+JAva.lang. Throwable
+
+
+Exception handlers:
+
+
+try
+catch
+Throw
+throws
+finally
+
+try with resource Java 7 version or AutoCloseable Interface
+
+
+try{
+int a=10;
+int b=0;
+int c=a/b;
+}
+catch(ArithmeticException e)
+{
+    System.out.println("Its an error for calculation");
+}
+catch(FileNotFoundException f)
+{
+    System.out.println("Its not a having a file")'
+}
+catch(SQLException s)
+{
+    System.out.println(s)
+}
+finally
+{
+    System.out.println("Something went wrong");
+}
+
+
+class equalsss
+{
+    public static void main(String...args) throws IOException,ArithmeticException,FileNotFoundException
+    {
+        int a=10,b=0;
+        int c=a/b;
+    }
+}
+
+
+Try with Resource:
+
+
+file--,db--
+
+
+try(FileInputStream in=new FileInputStream("Filename.txt")
+Connection con=DriverManager.getConnection("url","username","password");
+)
+
+{
+    fsdfsdfsdf
+
+
+}

@@ -1,0 +1,210 @@
+Constructs:
+
+input classification:
+
+--sequential
+--decision making--condition based
+
+---Iterative--Repeatedly 
+
+
+Sequential
+
+a=10;
+
+city=='Chennai' :
+   age>=18
+
+Constructs:
+
+To evaluate the conditions with Relational operator or Comparison operator
+
+<=,>=,==,!=--true or false
+
+
+Conditional Constructs
+
+--if else
+--Nested if else
+--Else if ladder
+--Switch case
+
+Loop Constructs-
+
+----While, Do while, for, For each
+
+
+Syntax:
+
+if (condition)
+{
+ statements
+}
+else
+{
+statements
+}
+
+if the condition is true then if statement block will be executed or other wise else part will be executed.
+
+Nested If else :
+
+To give the multiple conditions 
+
+
+syntax:
+
+if (condition)
+{
+	if (condition)
+	{
+		statements
+	}
+	else
+	{
+		statements;
+	}
+}
+else
+{
+	if(condition)
+	{
+		statements;
+	}
+	else
+	{
+		statements;
+	}
+}
+
+Switch Case:
+
+
+its a choice based Applications.
+
+
+java 7---numerial, characters only done in the cases
+
+java 8 String cases 
+
+switch (ch)
+{
+      case 1:
+         statement
+        break;
+      case 2:
+       statement
+       break;
+     case 3:
+        statement
+        break;
+    default:
+         statement
+}
+
+
+
+
+Looping Statements:
+
+
+
+particular block of statements repeatedly exexcuted with help of the Loop
+
+for the purpose of Iteration
+
+Java Loops:
+
+
+
+while
+
+do while
+
+for Loop
+
+Nested for Loop
+
+for Each Loop
+
+
+
+Loop having Three Parts
+
+
+initialization
+
+condition
+
+Reinitialziation
+
+While Loop:
+
+
+or Entry controlled loop because first evaluate the conditions 
+
+if the conditions true then statement block will be executed or otherwise loop will be terminated
+
+syntax:
+
+while(condition)
+{
+    statements;
+
+}
+
+
+Do- While Loop
+
+or exit controlled loop
+
+first evaluate the  statements then only check the conditions. if the conditions are true then loop will continue work or other wise loop will be terminated.
+
+irregular statement loop do while 
+
+
+For Loop:
+
+
+Complexity of the problem.
+
+
+for(initialization;testcondition;reinitialization)
+{
+}
+
+
+Nested For Loop:
+
+Rows and Column Data Nested For loop used
+
+
+for(initialization;test condition;reinitialization)
+{
+	for(initialization;test condition;reinitialization)
+	{
+		statements;
+	}
+	statements;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

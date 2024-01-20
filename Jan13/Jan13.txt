@@ -1,0 +1,58 @@
+Interface:
+
+
+--Abstraction ---To hide the all the details in one class
+
+--Java doesn't supported in Multiple inheritance it will planned interface
+
+Interface--interface--extends
+
+class to class--extends
+
+interface--class-implements
+
+interface interfaceName
+{
+}
+
+interface doesn't create a objects:
+
+inside interface only allowed for public and abstracts methods
+
+inside of the interface declare variable it should be in a final
+
+
+for exa:
+
+interface A
+{
+	public void one();
+	int a=10;
+}
+interface B
+{
+	public void two();
+	int b=20;
+}
+
+class C implements A,B
+{
+	public void one()
+	{
+		System.out.println("Hello world");
+	}
+	public void two()
+	{
+	`	b=30;
+		System.out.println(a+b);
+	}
+}
+public class InterfaceExample
+{
+	public static void main(String...args)
+	{
+		C c=new C();
+		c.one(0;
+		c.two();
+	}
+}

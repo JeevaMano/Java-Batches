@@ -1,0 +1,120 @@
+ContructorOverloading, Variable length arguments
+
+Inheritance:
+
+
+Reusability
+
+Types of Inheritance:
+
+Single Inheritance:
+Mulitple Inheritance
+Multilevel Inheritance
+Hierarchical Inheritance
+Hybrid Inheritance
+
+Single Inheritance:  Super class, Sub class  
+
+
+extends keyword
+
+super--to call the super class things.
+
+
+
+package Jan07;
+
+class Employee
+{
+    int id;
+    String name;
+    public Employee(int id, String name, int salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+    int salary;
+    
+    public int getSalary()
+    {
+        return salary;
+    }
+}
+class Manager extends Employee
+{
+    String dept;
+    public Manager(int i,String n, int s, String d)
+    {
+        super(i,n,s);
+        this.dept=d;
+    }
+
+    public int getSalary()
+
+    {
+        
+        if(dept=="Faculty")
+        {
+            return salary+5000;
+        }
+        else if(dept=="HR"|| dept=="Admin")
+        {
+            return salary+3000;
+        }
+        else
+        {
+            return salary;
+        }
+    
+        
+    }
+
+}
+
+public class SingleInheritanceTest {
+    public static void main(String[] args) {
+        Manager m=new Manager(01,"Jeeva",49999,"Faculty");
+        System.out.println(m.getSalary());
+        Manager m1=new Manager(01,"Jeeva",49999,"HR");
+        System.out.println(m1.getSalary());
+
+    
+
+    }
+    
+}
+
+
+
+Access Modifiers:
+
+
+Static, final, abstract
+
+static ---block, variable, method  static String institute="Itvedant";
+
+
+
+
+
+
+final--class,method, variable
+
+final int i=100;
+
+
+abstract-class, method.
+
+
+abstract class is not create a object--instaniated.
+
+
+
+
+
+
+
+
+
+
+
