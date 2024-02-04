@@ -1,0 +1,120 @@
+Collections is a Framework.
+
+What is Framework?
+=====Predefined things already there means is called Framework.
+
+Collections is used to handling a Data Structure.
+
+
+What is Collections:
+
+---Collections of objects to store a single objects that is called Collection.
+
+
+Collection-----Collections
+
+Collection is a interface
+
+Collections is an class.
+
+
+java.util
+|
+|
+Collections
+|
+|
+Collection  
+|
+|
+List,Set,Map--all them also interface
+
+1. Characteristics of List:
+
+   1. List is a Collection of homogeneous and hetergeneous data items.
+   2. List is having index and index starts with zero.
+   3. Based on index to add the data and delete the data is possible.
+   4. List allowed duplicate items.
+   5. Types of Child classes: ArrayList, LinkedList.
+
+2. Characteristics of Set:
+   
+   
+   1. set is a Collection of set of the elements
+   2. Set is not having index and not index starts with zero.
+   3. Based on index to add the data and delete the data is not possible.
+   4. Set not allowed duplicate items.
+   5. Types of Child classes: HashSet--Sequential Sorted, TreeSet---SortedSet
+
+3.Characteristics of Map:
+   
+   1. its an Key value pair.
+
+   2. Types: HashMap--Sequential Sorted Map,TreeMap---SortedMap.
+
+
+
+Map<>a=new HashMap<>();
+
+
+Generics----
+
+
+Wrapper Classes:
+
+
+primitivate data type to convert a objects is called auto boxing.
+
+object converted into a primitive data type is called auto unboxing.
+
+
+Wrapper Classes:
+
+
+Integer, Float, Double, String, Boolean, Byte.
+
+
+class Test<T> 
+{
+    
+    T obj;
+    Test(T obj) 
+    { 
+        this.obj = obj; 
+    } 
+    public T getObject()
+    { 
+        return this.obj; 
+    }
+}
+ 
+// Driver class to test above
+class Main {
+    public static void main(String[] args)
+    {
+        // instance of Integer type
+        Test<Integer> iObj = new Test<Integer>(15);
+        System.out.println(iObj.getObject());
+ 
+        // instance of String type
+        Test<String> sObj= new Test<String>("GeeksForGeeks");
+        System.out.println(sObj.getObject());
+    }
+}
+
+Generics: Only the things is Type Safety.
+
+java.lang.Objects methods
+
+equals()
+
+toString():
+
+The toString() method returns the String representation of the object. 
+If you print any object, Java compiler internally invokes the toString() method on the
+
+
+hashCode()--
+
+
+

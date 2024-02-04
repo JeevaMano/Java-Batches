@@ -1,0 +1,24 @@
+User Defined object to sort the objects with help of the Comparable and Comparator 
+
+
+Comparable in Java is an object to compare itself with another object. 
+It helps to sort the list of custom objects. 
+
+
+Iterating the Objects: to print the one by one:
+
+Iterator--ListIterator,Enumerator,for, forEach.
+
+Java8 version--For Each method--Filtering Collections
+
+Arrow Functions or Anonymous Function: without method name is called Arrow function or Anonymous
+
+
+Streams API:
+
+Collectors:
+
+Map,filter, reduce:
+
+To filtering the data.
+
